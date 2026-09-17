@@ -1,0 +1,91 @@
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================
+# VIRTUAL ENVIRONMENTS
+# ============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ============================================
+# JUPYTER NOTEBOOK
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# DATASET (62 MB — DO NOT COMMIT)
+# ============================================
+data/*.csv
+data/*.xlsx
+data/*.parquet
+!data/README.md
+
+# ============================================
+# OUTPUTS (Keep folder structure, ignore contents)
+# ============================================
+outputs/cleaned_data.csv
+outputs/executive_summary.pdf
+outputs/executive_summary.docx
+outputs/presentation.pptx
+outputs/figures/*.png
+outputs/figures/*.jpg
+outputs/figures/*.jpeg
+outputs/figures/*.svg
+outputs/figures/*.pdf
+!outputs/figures/.gitkeep
+
+# ============================================
+# D-TALE
+# ============================================
+.dtale/
+dtale_config.json
+
+# ============================================
+# IDE / EDITOR
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# LOGS & TEMP
+# ============================================
+*.log
+*.tmp
+*.bak
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
